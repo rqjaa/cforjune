@@ -16,7 +16,7 @@ html{
 }
 
 .background{
-    background-image: url(/cforjune/assets/1.jfif);
+    background-image: url(/assets/1.jfif);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -96,4 +96,30 @@ html{
 
 .picture:hover{
     transform: scale(1.1);
+}
+
+@media (max-width : 1500px) {
+    .margin-top{
+        margin-top: 90px;
+    }
+
+    .margin-top2{
+        margin-top: 20px;
+
+    }
+
+    .full-height2{
+        height: 140vh;
+    }
+
+    .full-height3{
+        height: 110vh;
+    }
+
+    .small{
+        width: 75%;
+        height: 75% ;
+    }
+    
+
 }
